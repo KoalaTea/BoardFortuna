@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <body>
+        <h2>First thing</h2>
+        <form action ="{{ endpoint }}" method=post>
+            <fieldset>
+                <legend>Test Form</legend>
+                {{ form.hidden_tag() }}
+
+                <div>
+                    {{ form.base.label }}<br>
+                    {{ form.base }}<br>
+
+                    {{ form.base_1.label }}<br>
+                    {{ form.base_1 }}<br>
+
+                    {{ form.base_2.label }}<br>
+                    {{ form.base_2 }}<br>
+
+                    {{ form.dark_ages.label }}<br>
+                    {{ form.dark_ages }}<br>
+
+                    {{ form.seaside.label }}<br>
+                    {{ form.seaside }}<br>
+
+                    {{ form.prosperity.label }}<br>
+                    {{ form.prosperity }}<br>
+
+                    {{ form.guilds.label }}<br>
+                    {{ form.guilds }}<br>
+
+                    {{ form.cornucopia.label }}<br>
+                    {{ form.cornucopia }}<br>
+
+                    {{ form.num_players.label }}<br>
+                    {{ form.num_players }}<br>
+
+                    <p><input type=submit value='Generate Game'>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

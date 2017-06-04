@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <body>
+        <h2>First thing</h2>
+            <fieldset>
+            <legend>Your Cards</legend>
+
+                <div>
+                    <p>First player: {{ first_player }}</p>
+
+                    {% for card in cards %}
+                        <p>{{ card[0] }}<br>{{ card[1] }}</p>
+                    {% endfor %}
+                </div>
+            </fieldset>
+    </body>
+</html>

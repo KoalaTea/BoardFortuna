@@ -6,3 +6,14 @@ seaside = ['embargo', 'haven', 'lighthouse', 'native village', 'pearl diver', 'a
 prosperity = ['loan', 'trade route', 'watchtower', 'bishop', 'monument', 'quarry', 'talisman', 'workers village', 'city', 'contraband', 'counting house', 'mint', 'montebank', 'rabble', 'royal seal', 'vault', 'venture', 'goons', 'grand market', 'hoard', 'bank', 'expand', 'forge', 'kings court', 'peddler']
 guilds = ['candlestick maker', 'stonemason', 'doctor', 'masterpiece', 'advisor', 'plaza', 'taxman', 'herald', 'baker', 'butcher', 'journeyman', 'metchant guild', 'soothsayer']
 cornucopia = ['hamlet', 'fortune teller', 'menagerie', 'farming village', 'horse traders', 'remake','tournament', 'young witch', 'harvest', 'horn of plenty', 'hunting party', 'jester', 'fairgrounds']
+
+dominion = {
+        'base': base,
+        'base_1': base_1,
+        'base_2': base_2,
+        'dark_ages': dark_ages,
+        'seaside': seaside,
+        'prosperity': prosperity,
+        'guilds': guilds,
+        'cornucopia': cornucopia
+        }
